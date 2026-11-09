@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AlzipClone.Core\AlzipClone.Core.csproj" />
+    <Content Include="..\AlzipClone.Core\sfx\SfxStub.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <!-- AlzipClone과 소스 공유: 리소스 논리명은 AlzipClone.icons.* 로 유지 -->
+    <Compile Include="..\AlzipClone\*.cs" />
+    <EmbeddedResource Include="..\AlzipClone\icons\*.png" Link="icons\%(Filename)%(Extension)" />
+    <EmbeddedResource Include="..\AlzipClone\icons\app.ico" Link="icons\app.ico" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>AlzipClone.Classic</AssemblyName>
+    <RootNamespace>AlzipClone</RootNamespace>
+    <DefineConstants>$(DefineConstants);CLASSIC_UI</DefineConstants>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7AD314C8-C308-4C34-A9B4-42CC1B353593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlzipClone", "src\AlzipClone\AlzipClone.csproj", "{7C4EB931-E972-4D0D-B246-02803023A8F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlzipClone.Core", "src\AlzipClone.Core\AlzipClone.Core.csproj", "{C03600AC-7C5A-4052-A900-4D1D52011279}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{96AE4A6E-0052-4ED5-8745-18D4FDCF21A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlzipClone.Tests", "tests\AlzipClone.Tests\AlzipClone.Tests.csproj", "{682DCFAB-1059-48A0-A34E-A7836664ACC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfxStub", "src\SfxStub\SfxStub.csproj", "{2943A236-74E2-4EBF-AE51-D0A3AB7FDCD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlzipClone.Classic", "src\AlzipClone.Classic\AlzipClone.Classic.csproj", "{744FCB6C-75A1-4550-B769-C7B1F366E8D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C4EB931-E972-4D0D-B246-02803023A8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4EB931-E972-4D0D-B246-02803023A8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4EB931-E972-4D0D-B246-02803023A8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4EB931-E972-4D0D-B246-02803023A8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03600AC-7C5A-4052-A900-4D1D52011279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03600AC-7C5A-4052-A900-4D1D52011279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03600AC-7C5A-4052-A900-4D1D52011279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03600AC-7C5A-4052-A900-4D1D52011279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682DCFAB-1059-48A0-A34E-A7836664ACC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682DCFAB-1059-48A0-A34E-A7836664ACC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682DCFAB-1059-48A0-A34E-A7836664ACC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682DCFAB-1059-48A0-A34E-A7836664ACC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2943A236-74E2-4EBF-AE51-D0A3AB7FDCD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2943A236-74E2-4EBF-AE51-D0A3AB7FDCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2943A236-74E2-4EBF-AE51-D0A3AB7FDCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2943A236-74E2-4EBF-AE51-D0A3AB7FDCD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744FCB6C-75A1-4550-B769-C7B1F366E8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744FCB6C-75A1-4550-B769-C7B1F366E8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744FCB6C-75A1-4550-B769-C7B1F366E8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744FCB6C-75A1-4550-B769-C7B1F366E8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C4EB931-E972-4D0D-B246-02803023A8F1} = {7AD314C8-C308-4C34-A9B4-42CC1B353593}
+		{C03600AC-7C5A-4052-A900-4D1D52011279} = {7AD314C8-C308-4C34-A9B4-42CC1B353593}
+		{682DCFAB-1059-48A0-A34E-A7836664ACC1} = {96AE4A6E-0052-4ED5-8745-18D4FDCF21A3}
+		{2943A236-74E2-4EBF-AE51-D0A3AB7FDCD3} = {7AD314C8-C308-4C34-A9B4-42CC1B353593}
+		{744FCB6C-75A1-4550-B769-C7B1F366E8D2} = {7AD314C8-C308-4C34-A9B4-42CC1B353593}
+	EndGlobalSection
+EndGlobal

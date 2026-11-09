@@ -1,0 +1,36 @@
+# Build & IDE outputs
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+TestResults/
+*.tmp
+.tmp-*
+seat-*.ps1
+*.log
+
+# PPT, docs, analysis & report artifacts
+docs/
+analysis/
+HANDOFF.md
+.codex-*/
+generated_images/
+output/
+*.ppt
+*.pptx
+*.pdf
+*.doc
+*.docx
+*.hwp
+*.hwpx
+*.mp4
+*.wav
+setup.inf
+setup.rpt
+/*.jpg
+/*.png
+
+# Keep README files
+!README.md
+!src/**/README.md
